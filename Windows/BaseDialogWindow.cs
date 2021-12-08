@@ -1,8 +1,6 @@
 ﻿namespace DiscordRPforVS
 {
-    using Microsoft.VisualStudio.PlatformUI;
-
-    public class BaseDialogWindow : DialogWindow
+    public class BaseDialogWindow : Microsoft.VisualStudio.PlatformUI.DialogWindow
     {
         public BaseDialogWindow()
         {

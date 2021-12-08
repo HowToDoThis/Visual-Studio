@@ -10,6 +10,7 @@
         <Icon>Resources\Icon.ico</Icon>
         <PreviewImage>Resources\Logo.png</PreviewImage>
         <Tags>development,discord,discordrpc,presence,rich,rpc,visual</Tags>
+        <Preview>true</Preview>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0,)" />

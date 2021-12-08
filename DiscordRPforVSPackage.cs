@@ -75,7 +75,6 @@
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "VSTHRD100:Avoid async void methods")]
         private async void SolutionBeforeClosing() => await this.UpdatePresenceAsync(null).ConfigureAwait(true);
 
-
         /// <summary>
         /// Handles switching between windows
         /// </summary>
@@ -178,7 +177,7 @@
                     this.CurrentTimestamps = this.Presence.Timestamps;
                 }
 
-                finish:;
+            finish:
                 this.Presence.Assets = this.Assets;
 
                 if (!this.Discord.IsInitialized && !this.Discord.IsDisposed)
@@ -195,7 +194,7 @@
 
         protected override void Dispose(Boolean disposing)
         {
-            Dispose();
+            this.Dispose();
             base.Dispose(disposing);
         }
 
